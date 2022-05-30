@@ -1,0 +1,2 @@
+Install lite-server
+npm install -g lite-server
