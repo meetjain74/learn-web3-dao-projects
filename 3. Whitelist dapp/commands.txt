@@ -1,0 +1,33 @@
+To see the backend code related commands -
+Check the commands.txt file inside the hardhat folder
+
+Contract deployed to address: 0xf991762E2942e6029defA55D65f3Cdb3249D8e04
+
+For frontend - 
+
+Create a new next project using the following command - 
+npx create-next-app@latest
+And answer the questions {Ex- project name: whitelist-frontend}
+
+{Now everything inside whitelist-frontend directory}
+
+To run the app -
+cd whitelist-frontend
+npm run dev
+
+Go to http://localhost:3000 and your app should be running 
+
+Install the Web3Modal library -
+npm install web3modal
+
+{
+    About Web3Modal - 
+    Web3Modal is an easy to use library to help developers easily allow their users to 
+    connect to your dApps with all sorts of different wallets. By default Web3Modal Library 
+    supports injected providers like (Metamask, Dapper, Gnosis Safe, Frame, Web3 Browsers, etc) 
+    and WalletConnect, You can also easily configure the library to support Portis, Fortmatic, 
+    Squarelink, Torus, Authereum, D'CENT Wallet and Arkane.
+}
+
+Install ethers.js -
+npm install ethers
